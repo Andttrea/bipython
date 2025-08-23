@@ -118,8 +118,6 @@ print(trna1.cargar_aminoacido("Metionina"))
 # Probar verificación de anticodón
 print(f"Anticodón del tRNA: {trna1.anticodon}")
 
-
-
 # RNA no codificante
 rna_nc = RNA_no_codificante("miRNA-21", 300, 322, "UAGCUUAUCAGACUGAUGUUGA", "silenciamiento génico")
 print(f"Nombre: {rna_nc.nombre}")
@@ -128,7 +126,6 @@ print(f"Función reguladora: {rna_nc.funcion_reguladora}")
 print(f"Longitud: {rna_nc.longitud()} bases")
 print(f"Contenido GC: {rna_nc.gc_content():.2%}")
 print(f"Estructura: {rna_nc.formar_estructura_secundaria()}")
-
 
 # Secuencia que codifica para varios aminoácidos
 secuencia_proteina = "AUGUUUUCUUAUUGGUGGUGAUAACGCUGCUGCUGAAGCUAAGUAA"
